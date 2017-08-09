@@ -14,6 +14,18 @@ Chris Sinchok
 
 ---
 
+## DISCLAIMERS
+
+- This data is messy |
+
+- I will be hand-waving some complexities |
+
+- My data isn't fully up-to-date |
+
+- Would love to answer questions after, if you'd like to know more |
+
+---
+
 ## What happened
 
 - I analyzed comments on an FCC proposal |
@@ -79,7 +91,7 @@ Chris Sinchok
 
 ## My Toolset
 
-- Started with Jupyterm |
+- Started with Jupyter |
 
 - Moved to an Elasticsearch backend |
 
@@ -109,11 +121,7 @@ Chris Sinchok
 
 ---
 
-# The Bots
-
---
-
-# Bot #1: "Unprecedented"
+# Group #1: "Unprecedented"
 
 +++
 
@@ -125,9 +133,9 @@ Chris Sinchok
 
 - Duplicate text |
 
-- Full addresses |
+- Real people, real addresses, real emails |
 
-- Emails provided |
+- Email in ALL CAPS |
 
 - Submitted over the API |
 
@@ -139,10 +147,105 @@ Chris Sinchok
 
 +++
 
-## Other Weirdness
+---
 
-- Addresses really well formatted |
+# Group #2: "Free our internet"
 
-- Email in ALL CAPS |
++++
 
-- Real people, real addresses, real emails |
+> In 2015, President Obama's FCC passed rules treating the Internet as a government regulated public utility for the first time in history. Those pushing hardest for the new rules were Silicon Valley monopolies like Google and leftist globalists like George Soros.
+>
+> Google in fact visited the White House more than 427 times during the Obama years. Leftist foundations like Soros' Open Society and the Ford Foundation spent almost $200 million pushing for the rule change.
+>
+> Now we know why. In less than two years big tech and their liberal allies have taken total control of our information and communications platforms. They have used their power to flatten competitors, ban speech, censor content, routinely violate our privacy, and silence dissenting voices.
+>
+> While Obama's goal clearly benefited radical progressives, leftist political candidates, and his Silicon Valley corporate cronies it destroyed the free and open Internet by establishing them as our information gatekeepers.
+>
+> I strongly encourage the FCC to oppose efforts by the TechLeft and liberal globalists to take over our Internet. Please roll back President Obama's disastrous rules immediately. The future of a free and open Internet is at stake.
+
++++
+
+## Commonalities
+
+- Duplicate text |
+
+- Full addresses |
+
+- Emails provided |
+
+- Submitted via CSV in huge groupings |
+
+---
+
+# Group #3 "Taxpayers Protection Alliance"
+
++++
+
+> Obama's Federal Communications Commission (FCC) forced regulations on the internet that put the government, and unaccountable bureaucrats, in control. These rules have cost taxpayers, slowed down broadband infrastructure investment, and hindered competition and choice for Americans. The time to remove the regulatory stranglehold on the internet is NOW. I urge the taxpayer-funded FCC to undo the terrible regulatory burdens that ex-FCC Chairman Tom Wheeler imposed on the internet. After 20 years, and trillions of dollars in infrastructure investment, there is no reason for the government to come in and ruin what has been a thriving tool that has changed the way we all live. Chairman Pai's proposal to repeal Title II regulations will ensure the continued growth of a dynamic, open internet for all American consumers and taxpayers.
+
++++
+
+## Commonalities
+
+- Duplicate text |
+
+- Full addresses |
+
+- Emails provided |
+
+- Submitted via CSV in huge groupings |
+
++++
+
+## Comment Rates
+
+![Comment Rates](images/csv-rates.png)
+
+---
+
+# Why do I think these are bots?
+
++++
+
+## The comment rates are...suspicious
+
++++
+
+## The data is too good
+
+- The addresses are full, and well formatted |
+
+- No fobviously fake emails, addresses |
+
+- No one submitting twice
+
++++
+
+## There are a lot of "breached" accounts
+
+- "Unprecedented": 67.4%
+- "Free Our Internet": 74.2%
+- "Outraged": 64.2%
+- "Battle for the Net": 33.5%
+- "John Oliver Viewers": 20.5%
+- Control Sample: 31.5%
+
++++
+
+## These aren't "visible" campaigns
+
+- These aren't organizations with a ton of twitter followers |
+
+- They aren't obviously getting traction online |
+
+- For some of these, no one knows where the form lives |
+
++++
+
+## We asked a bunch of the submitters
+
+![Comment Rates](images/email-sample.png)
+
++++
+
+![Comment Rates](images/email-results.png)
