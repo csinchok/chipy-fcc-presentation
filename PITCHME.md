@@ -1,4 +1,4 @@
-# Tracking Bots with Python 
+# FCC Bot Tracking
 
 Chris Sinchok
 
@@ -12,6 +12,10 @@ Chris Sinchok
 
 - Boy howdy, I am bad at pandas |
 
+Note:
+Most people in this room could do something similar.
+I am no genius.
+
 ---
 
 ## DISCLAIMERS
@@ -24,6 +28,9 @@ Chris Sinchok
 
 - Would love to answer questions after, if you'd like to know more |
 
+Note:
+I spent a ton of time looking into this, and I am distilling my findings.
+I'm not done yet.
 ---
 
 ## What happened
@@ -44,6 +51,8 @@ Chris Sinchok
 
 - Most ISPs would very much like this proposal to succeed |
 
+Note:
+Check out John Oliver's segment
 ---
 
 ## Public Comments?
@@ -54,6 +63,9 @@ Chris Sinchok
 
 - Public sentiment has swayed things before |
 
+Note:
+Comments are supposed to be legal arguments
+In 2014, they were very important to show public sentiment
 ---
 
 ## My initial goals
@@ -64,6 +76,8 @@ Chris Sinchok
 
 - Build a website to provide an analysis of the data |
 
+Note:
+My goals went right out the window pretty quickly
 ---
 
 ## The FCC has a Comment API!
@@ -74,6 +88,9 @@ Chris Sinchok
 
 - Drives the ECFS frontend |
 
+Note:
+There's a resstricted API, and one that drives the website
+Went down for a bit, claimed DDOS
 ---
 
 # Let's look at the JSON!
@@ -89,18 +106,6 @@ Chris Sinchok
 
 ---
 
-## My Toolset
-
-- Started with Jupyter |
-
-- Moved to an Elasticsearch backend |
-
-- Analyzed the data with some Python scripts, storing the results in ES |
-
-- Used a Kibana frontend for easy data viewing |
-
----
-
 ## First results
 
 - There was an obvious "John Oliver" bump |
@@ -109,6 +114,10 @@ Chris Sinchok
 
 - The "John Oliver" comments were pretty easy to tag, but weren't identical |
 
+Note:
+My first idea was to look at the John Oliver effect
+Reddit, etc, also noticed these entries
+Not alphabetical!
 ---
 
 ## Tagging
@@ -119,6 +128,8 @@ Chris Sinchok
 
 - Where did the comment come from? (Web, CSV, API) |
 
+Note:
+Talk about index vs analyze
 ---
 
 # Group #1: "Unprecedented"
@@ -201,11 +212,66 @@ Chris Sinchok
 
 ---
 
+Group #4 "Recursion"
+
++++
+
+> Dear Commissioners: Regarding Net Neutrality and Title II.
+> I want to implore the Federal Communications Commission to reverse Obama's decision to take over broadband.
+> Individuals, rather than unelected bureaucrats, should buy whichever products we desire. Obama's decision to take over broadband is a exploitation of the open Internet.
+> It reversed a free-market system that performed exceptionally successfully for many years with bipartisan approval.
+
++++
+
+> To the FCC: I am a voter worried about restoring Internet freedom.
+> I strongly suggest the FCC to undo Barack Obama's decision to regulate the web.
+> Individuals, not unelected bureaucrats, should buy which products we desire.
+> Barack Obama's decision to regulate the web is a distortion of the open Internet.
+> It stopped a free-market framework that performed exceptionally successfully for two decades with nearly universal consensus.
+
++++
+
+# Let's just zoom in on the first sentence...
+
++++
+
+```
+Dear Commissioners: Regarding Net Neutrality and Title II.
+To the FCC: I am a voter worried about restoring Internet freedom.
+Dear Mr. Pai, I'm concerned about the Open Internet order.
+Mr Pai: I'm a voter worried about restoring Internet freedom.
+FCC commissioners, My comments re: the FCC's so-called Open Internet order.
+Chairman Pai: I'm contacting you about regulations on the Internet.
+FCC commissioners, I have thoughts on Title II rules.
+FCC: I am a voter worried about Title II rules.
+FCC commissioners, I'd like to share my thoughts on Internet Freedom.
+FCC: I want to give my opinion on Net Neutrality and Title II.
+Dear Chairman Pai, I'm very concerned about Internet Freedom.
+With respect to the Obama takeover of the Internet.
+I'd like to share my thoughts on Net neutrality.
+Dear Mr. Pai, In reference to Title II rules.
+Dear Chairman Pai, I have thoughts on restoring Internet freedom.
+I'm contacting you about restoring Internet freedom.
+Dear FCC, In the matter of the future of the Internet.
+```
+
++++
+
+I will leave it as an exercise to the reader to recreate this in Python.
+
+Ask me after for tips.
+
+---
+
 # Why do I think these are bots?
 
 +++
 
 ## The comment rates are...suspicious
+
+- A lot of "flat" rates
+- Many blank spots
+- Unnatural distributions when compared to other sources
 
 +++
 
@@ -298,3 +364,11 @@ Chris Sinchok
         <td>38.0%</td>
     </tr>
 </table>
+
+---
+
+## So, what is the FCC gonna do?
+
+Nothing. |
+
++++
