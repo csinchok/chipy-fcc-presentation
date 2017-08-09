@@ -4,12 +4,16 @@ Chris Sinchok
 
 ---
 
-### Testing
+### Who am I?
 
-- One
-- Two
-- Three
+- Not a data scientist |
+- Pretty much just a web developer |
+- Boy howdy, am I bad at pandas |
 
 ---
 
-![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
+### What happened
+
+- I was interested in studying comments on an FCC proposal |
+- I found some weird patterns, and published a medium post about it |
+- The post ended up getting quoted quite a bit |
