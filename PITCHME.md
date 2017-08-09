@@ -42,7 +42,7 @@ Chris Sinchok
 
 - Most tech people do not support this |
 
-- Most ISPs would very much like this proposal to suceed
+- Most ISPs would very much like this proposal to succeed |
 
 ---
 
@@ -197,8 +197,6 @@ Chris Sinchok
 
 +++
 
-## Comment Rates
-
 ![Comment Rates](images/csv-rates.png)
 
 ---
@@ -215,9 +213,9 @@ Chris Sinchok
 
 - The addresses are full, and well formatted |
 
-- No fobviously fake emails, addresses |
+- No obviously fake emails, addresses |
 
-- No one submitting twice
+- No one submitting twice |
 
 +++
 
@@ -248,4 +246,23 @@ Chris Sinchok
 
 +++
 
-![Comment Rates](images/email-results.png)
+## Survey Results
+
+<table>
+    <th>
+        <td>Source</td>
+        <td>I'm Unsure</td>
+        <td>No</td>
+        <td>Yes</td>
+        <td>Sample Size</td>
+        <td>Response Rate</td>
+    </th>
+    <tr>
+        <td>battleforthenet</td>
+        <td>2</td>
+        <td>0</td>
+        <td>29</td>
+        <td>100</td>
+        <td>31.0%</td>
+    </tr>
+</table>
