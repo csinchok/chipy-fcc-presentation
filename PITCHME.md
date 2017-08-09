@@ -369,6 +369,10 @@ Ask me after for tips.
 
 ## So, what is the FCC gonna do?
 
-Nothing. |
+Probably nothing. |
 
-+++
+Note:
+The FCC has said that they can't police these comments
+They also claimed that they werre DDOS'ed
+
+---
