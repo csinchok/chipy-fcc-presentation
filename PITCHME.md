@@ -249,14 +249,38 @@ Chris Sinchok
 ## Survey Results
 
 <table>
-    <th>
-        <td>Source</td>
-        <td>I'm Unsure</td>
-        <td>No</td>
-        <td>Yes</td>
-        <td>Sample Size</td>
-        <td>Response Rate</td>
-    </th>
+    <tr>
+        <th>Source</th>
+        <th>I'm Unsure</th>
+        <th>No</th>
+        <th>Yes</th>
+        <th>Sample Size</th>
+        <th>Response Rate</th>
+    </tr>
+    <tr>
+        <td>freeourinternet</td>
+        <td>1</td>
+        <td>9</td>
+        <td>0</td>
+        <td>100</td>
+        <td>10.0%</td>
+    </tr>
+    <tr>
+        <td>unprecedented.allcaps</td>
+        <td>1</td>
+        <td>25</td>
+        <td>3</td>
+        <td>500</td>
+        <td>5.8%</td>
+    </tr>
+    <tr>
+        <td>unprecedented.lowercase</td>
+        <td>2</td>
+        <td>9</td>
+        <td>39</td>
+        <td>100</td>
+        <td>50.0%</td>
+    </tr>
     <tr>
         <td>battleforthenet</td>
         <td>2</td>
@@ -264,5 +288,13 @@ Chris Sinchok
         <td>29</td>
         <td>100</td>
         <td>31.0%</td>
+    </tr>
+    <tr>
+        <td>control</td>
+        <td>0</td>
+        <td>0</td>
+        <td>38</td>
+        <td>100</td>
+        <td>38.0%</td>
     </tr>
 </table>
