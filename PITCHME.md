@@ -10,7 +10,7 @@ Chris Sinchok
 
 - Pretty much just a web developer |
 
-- Boy howdy, am I bad at pandas |
+- "*Boy howdy*, am I bad at pandas" |
 
 ---
 
