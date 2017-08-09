@@ -224,14 +224,17 @@ I want to implore the Federal Communications Commission to reverse Obama's decis
 Individuals, rather than unelected bureaucrats, should buy whichever products we desire. Obama's decision to take over broadband is a exploitation of the open Internet.
 It reversed a free-market system that performed exceptionally successfully for many years with bipartisan approval.</pre>
 
-
-+++
-
-<pre>o the FCC: I am a voter worried about restoring Internet freedom.
+<pre>To the FCC: I am a voter worried about restoring Internet freedom.
 I strongly suggest the FCC to undo Barack Obama's decision to regulate the web.
 Individuals, not unelected bureaucrats, should buy which products we desire.
 Barack Obama's decision to regulate the web is a distortion of the open Internet.
 It stopped a free-market framework that performed exceptionally successfully for two decades with nearly universal consensus.</pre>
+
+<pre>Dear Mr. Pai, In reference to Title II rules.
+I'd like to advocate the government to overturn President Obama's decision to take over the Internet.
+Individuals, not so-called experts, should be free to use whatever services they prefer.
+President Obama's decision to take over the Internet is a distortion of the open Internet.
+It broke a market-based framework that performed fabulously successfully for two decades with broad bipartisan support.</pre>
 
 +++
 
