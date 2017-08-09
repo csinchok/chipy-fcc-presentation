@@ -219,19 +219,19 @@ This one popped up AFTER my post
 
 +++
 
-Dear Commissioners: Regarding Net Neutrality and Title II.  
-I want to implore the Federal Communications Commission to reverse Obama's decision to take over broadband.  
-Individuals, rather than unelected bureaucrats, should buy whichever products we desire. Obama's decision to take over broadband is a exploitation of the open Internet.  
-It reversed a free-market system that performed exceptionally successfully for many years with bipartisan approval.  
+<pre>Dear Commissioners: Regarding Net Neutrality and Title II.
+I want to implore the Federal Communications Commission to reverse Obama's decision to take over broadband.
+Individuals, rather than unelected bureaucrats, should buy whichever products we desire. Obama's decision to take over broadband is a exploitation of the open Internet.
+It reversed a free-market system that performed exceptionally successfully for many years with bipartisan approval.</pre>
 
 
 +++
 
-To the FCC: I am a voter worried about restoring Internet freedom.  
-I strongly suggest the FCC to undo Barack Obama's decision to regulate the web.  
-Individuals, not unelected bureaucrats, should buy which products we desire.  
-Barack Obama's decision to regulate the web is a distortion of the open Internet.  
-It stopped a free-market framework that performed exceptionally successfully for two decades with nearly universal consensus.  
+<pre>o the FCC: I am a voter worried about restoring Internet freedom.
+I strongly suggest the FCC to undo Barack Obama's decision to regulate the web.
+Individuals, not unelected bureaucrats, should buy which products we desire.
+Barack Obama's decision to regulate the web is a distortion of the open Internet.
+It stopped a free-market framework that performed exceptionally successfully for two decades with nearly universal consensus.</pre>
 
 +++
 
@@ -239,8 +239,7 @@ It stopped a free-market framework that performed exceptionally successfully for
 
 +++
 
-```
-Dear Commissioners: Regarding Net Neutrality and Title II.
+<pre>Dear Commissioners: Regarding Net Neutrality and Title II.
 To the FCC: I am a voter worried about restoring Internet freedom.
 Dear Mr. Pai, I'm concerned about the Open Internet order.
 Mr Pai: I'm a voter worried about restoring Internet freedom.
@@ -256,8 +255,7 @@ I'd like to share my thoughts on Net neutrality.
 Dear Mr. Pai, In reference to Title II rules.
 Dear Chairman Pai, I have thoughts on restoring Internet freedom.
 I'm contacting you about restoring Internet freedom.
-Dear FCC, In the matter of the future of the Internet.
-```
+Dear FCC, In the matter of the future of the Internet.</pre>
 
 +++
 
