@@ -1,0 +1,102 @@
+{
+    "id_submission": "105100904707408",
+    "confirmation_number": "2017051074011757",
+    "submissiontype": {
+        "description": "COMMENT",
+        "short": "COMMENT",
+        "id": 7,
+        "abbreviation": "CO"
+    },
+    "attachments": [],
+    "documents": [],
+    "bureaus": [],
+    "lawfirms": [],
+    "viewingstatus": {
+        "description": "Unrestricted",
+        "id": "10"
+    },
+    "express_comment": 1,
+    "addressentity": {
+        "city": "Chicago",
+        "address_line_1": "1322 W Barry Ave",
+        "address_line_2": "Apt 1",
+        "state": "IL",
+        "zip_code": "60657"
+    },
+    "contact_email": "chris@sinchok.com",
+    "internationaladdressentity": {
+        "addresstext": ""
+    },
+    "filers": [
+        {
+            "name": "Chris Sinchok"
+        }
+    ],
+    "date_submission": "2017-05-10T00:19:56.405Z",
+    "date_received": "2017-05-10T00:19:56.405Z",
+    "date_disseminated": "2017-05-10T15:12:58.923Z",
+    "filingstatus": {
+        "description": "DISSEMINATED",
+        "id": 30
+    },
+    "emailConfirmation": "true",
+    "proceedings": [
+        {
+            "sunshine_start_date": null,
+            "comment_reply_end_date": null,
+            "_index": "proceedings.new",
+            "city": " ",
+            "date_initial_decision": null,
+            "date_nprm": null,
+            "id_bureau": " ",
+            "id_proceeding": "301759",
+            "flag_rulemaking_or_docket": "D",
+            "channel": " ",
+            "description": "Restoring Internet Freedom",
+            "file_number": "",
+            "total": 607069,
+            "date_closed": "2099-12-31T23:59:59.999Z",
+            "date_designated": null,
+            "date_proceeding_created": "2017-04-26T14:49:35.900Z",
+            "callsign": " ",
+            "flag_internet_file": "Y",
+            "bureau": {
+                "code": "WC",
+                "name": "Wireline Competition Bureau",
+                "edocs_bureau_code": "WCB"
+            },
+            "id_state": null,
+            "sunshine_end_date": null,
+            "filed_by": "Aleta.Bowers",
+            "date_archived": null,
+            "face_card_id": "301759",
+            "flag_historical_data_exists": "N",
+            "consolidated_proceeding_id": null,
+            "date_public_notice": null,
+            "date_rule_board_decision": null,
+            "flag_archived": "N",
+            "flag_small_business_impact": null,
+            "description_display": "Restoring Internet Freedom",
+            "comment_end_date": null,
+            "applicant_name": " ",
+            "date_effective": null,
+            "comment_start_date": null,
+            "filingStatus": "OPENALL",
+            "date_commission_decision": null,
+            "flag_exparte_allowed": "Y",
+            "name": "17-108",
+            "date_oral_argument": null,
+            "date_reporting_and_order": null,
+            "date_hot_docket": null,
+            "recent_filings": 555972,
+            "days": 30,
+            "location": " ",
+            "rule_section": " ",
+            "comment_reply_start_date": null
+        }
+    ],
+    "presented_to": [],
+    "text_data": "I strongly support keeping ISP's regulated under Title II, and am *very* against this proposal, which I believe threatens the neutrality of the internet.",
+    "authors": [],
+    "_index": "filings.2017.5"
+}
