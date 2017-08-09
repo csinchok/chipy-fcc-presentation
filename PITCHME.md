@@ -7,7 +7,9 @@ Chris Sinchok
 ### Who am I?
 
 - Not a data scientist |
+
 - Pretty much just a web developer |
+
 - Boy howdy, am I bad at pandas |
 
 ---
