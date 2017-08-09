@@ -52,11 +52,9 @@ Chris Sinchok
 
 ---?code=my-comment.json&lang=json
 
-### A brief tour of the Data
-
 @[2](Every comment has a unique ID)
 @[19-25](Address isn't required, but it's often present)
 @[26](Email isn't visible on the web frontend, but it's available in the API)
 @[35-36](These dates are effectively the same--they're the time I made the comment)
 @[37](This is the date the comment was approved and posted to the website)
-@[99](The text data itself)
+@[99](The comment itself)
