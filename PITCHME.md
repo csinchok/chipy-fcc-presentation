@@ -4,13 +4,13 @@ Chris Sinchok
 
 ---
 
-## Who am I?
+## This is not a data science presentation
 
 - Not a data scientist |
 
-- Pretty much just a web developer |
+- I used some pretty simple tools |
 
-- Boy howdy, I am bad at pandas |
+- Boy howdy, I am bad at Pandas |
 
 Note:
 Most people in this room could do something similar.
@@ -20,30 +20,19 @@ I am no genius.
 
 ## DISCLAIMERS
 
+- My data isn't fully up-to-date |
+
 - This data is messy |
 
-- I will be hand-waving some complexities |
-
-- My data isn't fully up-to-date |
+- For time, I will be hand-waving some complexities |
 
 - Would love to answer questions after, if you'd like to know more |
 
 Note:
-I spent a ton of time looking into this, and I am distilling my findings.
-I'm not done yet.
+I spent a ton of time looking into this, and I am distilling my findings. I'm not done yet.
 ---
 
-## What happened
-
-- I analyzed comments on an FCC proposal |
-
-- Found some weird patterns, and published a blog post about it |
-
-- The post ended up getting quite a bit of traction |
-
----
-
-## A short description of the issue
+## What is this FCC issue?
 
 - The head of the FCC wants to roll back Title II regulations |
 
@@ -61,23 +50,10 @@ Check out John Oliver's segment
 
 - Comments are not an actual vote |
 
-- Public sentiment has swayed things before |
+- Public sentiment has helped sway things before |
 
 Note:
-Comments are supposed to be legal arguments
-In 2014, they were very important to show public sentiment
----
-
-## My initial goals
-
-- Get an idea of the overall public sentiment |
-
-- Look at how much John Oliver changed the numbers |
-
-- Build a website to provide an analysis of the data |
-
-Note:
-My goals went right out the window pretty quickly
+Comments are supposed to be legal arguments. In 2014, they were very important to show public sentiment
 ---
 
 ## The FCC has a Comment API!
@@ -89,7 +65,7 @@ My goals went right out the window pretty quickly
 - Drives the ECFS frontend |
 
 Note:
-There's a resstricted API, and one that drives the website
+There's a restricted API, and one that drives the website
 Went down for a bit, claimed DDOS
 ---
 
@@ -103,13 +79,15 @@ Went down for a bit, claimed DDOS
 @[35-36](These dates are effectively the same--they're the time I made the comment)
 @[37](This is the date the comment was approved and posted to the website)
 @[99](The comment itself)
-@[43](This is how I determined what was an "on-site" comment)
-@[57](This is obviously not dynamic, it must be cached)
-@[101](This key was only present on CSV submissions)
-@[102](This clued me into the fact that this is running off of ES)
+@[43]
+@[57]
+@[101]
+@[102]
 
 ---
 ## Tools
+
+- I used ElasticSearch as a data store |
 
 - Crawled the API, and and indexed ES with Python |
 
@@ -117,20 +95,6 @@ Went down for a bit, claimed DDOS
 
 - Used Kibana for a lot of the slicing and dicing |
 
----
-
-## First results
-
-- There was an obvious "John Oliver" bump |
-
-- There were a lot of duplicate text entries |
-
-- The "John Oliver" comments were pretty easy to tag, but weren't identical |
-
-Note:
-My first idea was to look at the John Oliver effect
-Reddit, etc, also noticed these entries
-Not alphabetical!
 ---
 
 ## Tagging
@@ -145,7 +109,7 @@ Note:
 Talk about index vs analyze
 ---
 
-# Group #1: "Unprecedented"
+# Bot #1: "Unprecedented"
 
 +++
 
@@ -173,7 +137,7 @@ Talk about index vs analyze
 
 ---
 
-# Group #2: "Free our internet"
+# Bot #2: "Free our internet"
 
 +++
 
@@ -201,7 +165,7 @@ Talk about index vs analyze
 
 ---
 
-# Group #3 "Taxpayers Protection Alliance"
+# Bot #3 "Taxpayers Protection Alliance"
 
 +++
 
@@ -225,7 +189,7 @@ Talk about index vs analyze
 
 ---
 
-# Group #4 "Recursion"
+# Bot #4 "Recursion"
 
 Note:
 This one popped up AFTER my post
@@ -272,10 +236,6 @@ Dear Mr. Pai, In reference to Title II rules.
 Dear Chairman Pai, I have thoughts on restoring Internet freedom.
 I'm contacting you about restoring Internet freedom.
 Dear FCC, In the matter of the future of the Internet.</pre>
-
-+++
-
-I will leave it as an exercise to the reader to recreate this in Python.
 
 ---
 
@@ -331,6 +291,7 @@ Breaches only include physical addresses
 
 ![Comment Rates](images/email-sample.png)
 
++++
 
 ## Survey Results
 
