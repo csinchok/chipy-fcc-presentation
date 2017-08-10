@@ -6,7 +6,7 @@ Chris Sinchok
 
 ## This is not a data science presentation
 
-- Not a data scientist |
+- I'm not a data scientist |
 
 - I used some pretty simple tools |
 
@@ -18,13 +18,13 @@ I am no genius.
 
 ---
 
-## DISCLAIMERS
+## More Disclaimers
 
 - My data isn't fully up-to-date |
 
 - This data is messy |
 
-- For time, I will be hand-waving some complexities |
+- I will be hand-waving some complexities |
 
 - Would love to answer questions after, if you'd like to know more |
 
@@ -34,7 +34,7 @@ I spent a ton of time looking into this, and I am distilling my findings. I'm no
 
 ## What is this FCC issue?
 
-- The head of the FCC wants to roll back Title II regulations |
+- The head of the FCC wants to roll back Title II regulations on ISPs |
 
 - Most tech people do not support this |
 
@@ -52,6 +52,8 @@ Check out John Oliver's segment
 
 - Public sentiment has helped sway things before |
 
+- Comments are submitted via web form, API or CSV |
+
 Note:
 Comments are supposed to be legal arguments. In 2014, they were very important to show public sentiment
 ---
@@ -62,7 +64,7 @@ Comments are supposed to be legal arguments. In 2014, they were very important t
 
 - With an API key, allows posting of comments |
 
-- Drives the ECFS frontend |
+- Drives the FCC frontend |
 
 Note:
 There's a restricted API, and one that drives the website
@@ -76,7 +78,7 @@ Went down for a bit, claimed DDOS
 @[2](Every comment has a unique ID)
 @[19-25](Address isn't required, but it's often present)
 @[26](Email isn't visible on the web frontend, but it's available in the API)
-@[35-36](These dates are effectively the same--they're the time I made the comment)
+@[35-36](These dates are effectively the same)
 @[37](This is the date the comment was approved and posted to the website)
 @[99](The comment itself)
 @[43]
@@ -87,11 +89,11 @@ Went down for a bit, claimed DDOS
 ---
 ## Tools
 
-- I used ElasticSearch as a data store |
+- I used Elasticsearch as a data store |
 
 - Crawled the API, and and indexed ES with Python |
 
-- Had a separate Python process to tag Comments in ES |
+- Had a separate Python process to analyze comments |
 
 - Used Kibana for a lot of the slicing and dicing |
 
@@ -113,7 +115,7 @@ Talk about index vs analyze
 
 +++
 
-> The unprecedented regulatory power the Obama Administration imposed on the internet is smothering innovation, damaging the American economy and obstructing job creation. I urge the Federal Communications Commission to end the bureaucratic regulatory overreach of the internet known as Title II and restore the bipartisan light-touch regulatory consensus that enabled the internet to flourish for more than 20 years. The plan currently under consideration at the FCC to repeal Obama's Title II power grab is a positive step forward and will help to promote a truly free and open internet for everyone.
+> The unprecedented regulatory power the Obama Administration imposed on the internet is smothering innovation, damaging the American economy and obstructing job creation. I urge the Federal Communications Commission to end the bureaucratic regulatory overreach of the internet known as Title II and restore the bipartisan light-touch regulatory consensus that enabled the internet to flourish for more than 20 years...
 
 +++
 
@@ -133,23 +135,15 @@ Talk about index vs analyze
 
 ![Comment Rates](images/unprecedented-rates.png)
 
-+++
-
 ---
 
 # Bot #2: "Free our internet"
 
 +++
 
-> In 2015, President Obama's FCC passed rules treating the Internet as a government regulated public utility for the first time in history. Those pushing hardest for the new rules were Silicon Valley monopolies like Google and leftist globalists like George Soros.
->
-> Google in fact visited the White House more than 427 times during the Obama years. Leftist foundations like Soros' Open Society and the Ford Foundation spent almost $200 million pushing for the rule change.
->
-> Now we know why. In less than two years big tech and their liberal allies have taken total control of our information and communications platforms. They have used their power to flatten competitors, ban speech, censor content, routinely violate our privacy, and silence dissenting voices.
->
-> While Obama's goal clearly benefited radical progressives, leftist political candidates, and his Silicon Valley corporate cronies it destroyed the free and open Internet by establishing them as our information gatekeepers.
->
-> I strongly encourage the FCC to oppose efforts by the TechLeft and liberal globalists to take over our Internet. Please roll back President Obama's disastrous rules immediately. The future of a free and open Internet is at stake.
+> In 2015, President Obama's FCC passed rules treating the Internet as a government regulated public utility for the first time in history. Those pushing hardest for the new rules were Silicon Valley monopolies like Google and leftist globalists like George Soros...
+>...
+>...I strongly encourage the FCC to oppose efforts by the TechLeft and liberal globalists to take over our Internet. Please roll back President Obama's disastrous rules immediately. The future of a free and open Internet is at stake.
 
 +++
 
@@ -169,7 +163,7 @@ Talk about index vs analyze
 
 +++
 
-> Obama's Federal Communications Commission (FCC) forced regulations on the internet that put the government, and unaccountable bureaucrats, in control. These rules have cost taxpayers, slowed down broadband infrastructure investment, and hindered competition and choice for Americans. The time to remove the regulatory stranglehold on the internet is NOW. I urge the taxpayer-funded FCC to undo the terrible regulatory burdens that ex-FCC Chairman Tom Wheeler imposed on the internet. After 20 years, and trillions of dollars in infrastructure investment, there is no reason for the government to come in and ruin what has been a thriving tool that has changed the way we all live. Chairman Pai's proposal to repeal Title II regulations will ensure the continued growth of a dynamic, open internet for all American consumers and taxpayers.
+> Obama's Federal Communications Commission (FCC) forced regulations on the internet that put the government, and unaccountable bureaucrats, in control. These rules have cost taxpayers, slowed down broadband infrastructure investment, and hindered competition and choice for Americans. The time to remove the regulatory stranglehold on the internet is NOW...
 
 +++
 
@@ -267,12 +261,29 @@ People don't like putting their information into forms, you get a lot of "Fake M
 
 ## There are a lot of "breached" accounts
 
-- "Unprecedented": 67.4% |
-- "Free Our Internet": 74.2% |
-- "Outraged": 64.2% |
-- "Battle for the Net": 33.5% |
-- "John Oliver Viewers": 20.5% |
-- Control Sample: 31.5% |
+<table>
+    <tr>
+        <td>Unprecedented</td>
+        <td>67.4%</td>
+    </tr>
+    <tr>
+        <td>Free Our Internet</td>
+        <td>74.2%</td>
+    </tr>
+    <tr>
+        <td>Outraged</td>
+        <td>64.2%</td>
+    </tr>
+    <tr>
+        <td>Battle for the Net</td>
+        <td>33.5%</td>
+    </tr>
+    <tr>
+        <td>John Oliver Viewers</td>
+        <td>31.5%</td>
+    </tr>
+</table>
+
 Note:
 Breaches only include physical addresses
 +++
@@ -342,10 +353,18 @@ Breaches only include physical addresses
 
 ---
 
-## So, what is the FCC gonna do?
+## So, what is the FCC gonna do about the bots?
 
 Probably nothing.
 
 Note:
 The FCC has said that they can't police these comments
 They also claimed that they werre DDOS'ed
+
+---
+
+# Questions?
+
+chris@sinchok.com
+@chrissinchok
+github.com/csinchok
