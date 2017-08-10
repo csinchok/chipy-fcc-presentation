@@ -103,6 +103,19 @@ Went down for a bit, claimed DDOS
 @[35-36](These dates are effectively the same--they're the time I made the comment)
 @[37](This is the date the comment was approved and posted to the website)
 @[99](The comment itself)
+@[43](This is how I determined what was an "on-site" comment)
+@[57](This is obviously not dynamic, it must be cached)
+@[101](This key was only present on CSV submissions)
+@[102](This clued me into the fact that this is running off of ES)
+
+---
+## Tools
+
+- Crawled the API, and and indexed ES with Python |
+
+- Had a separate Python process to tag Comments in ES |
+
+- Used Kibana for a lot of the slicing and dicing |
 
 ---
 
@@ -122,7 +135,7 @@ Not alphabetical!
 
 ## Tagging
 
-- Grouping by "form letter" |
+- Grouping by "source" |
 
 - Was there a full physical address? |
 
@@ -264,8 +277,6 @@ Dear FCC, In the matter of the future of the Internet.</pre>
 
 I will leave it as an exercise to the reader to recreate this in Python.
 
-Ask me after for tips.
-
 ---
 
 # Why do I think these are bots?
@@ -274,9 +285,11 @@ Ask me after for tips.
 
 ## The comment rates are...suspicious
 
-- A lot of "flat" rates
-- Many blank spots
-- Unnatural distributions when compared to other sources
+- A lot of "flat" rates |
+
+- Many blank spots |
+
+- Unnatural distributions when compared to other sources |
 
 +++
 
@@ -286,19 +299,22 @@ Ask me after for tips.
 
 - No obviously fake emails, addresses |
 
-- No one submitting twice |
-
+- Almost no one submitting multiple times |
+Note:
+When you have a web form, people submit it multiple times
+People don't like putting their information into forms, you get a lot of "Fake McFakerson's"
 +++
 
 ## There are a lot of "breached" accounts
 
-- "Unprecedented": 67.4%
-- "Free Our Internet": 74.2%
-- "Outraged": 64.2%
-- "Battle for the Net": 33.5%
-- "John Oliver Viewers": 20.5%
-- Control Sample: 31.5%
-
+- "Unprecedented": 67.4% |
+- "Free Our Internet": 74.2% |
+- "Outraged": 64.2% |
+- "Battle for the Net": 33.5% |
+- "John Oliver Viewers": 20.5% |
+- Control Sample: 31.5% |
+Note:
+Breaches only include physical addresses
 +++
 
 ## These aren't "visible" campaigns
@@ -315,7 +331,6 @@ Ask me after for tips.
 
 ![Comment Rates](images/email-sample.png)
 
-+++
 
 ## Survey Results
 
@@ -325,7 +340,6 @@ Ask me after for tips.
         <th>I'm Unsure</th>
         <th>No</th>
         <th>Yes</th>
-        <th>Sample Size</th>
         <th>Response Rate</th>
     </tr>
     <tr>
@@ -333,7 +347,6 @@ Ask me after for tips.
         <td>1</td>
         <td>9</td>
         <td>0</td>
-        <td>100</td>
         <td>10.0%</td>
     </tr>
     <tr>
@@ -341,7 +354,6 @@ Ask me after for tips.
         <td>1</td>
         <td>25</td>
         <td>3</td>
-        <td>500</td>
         <td>5.8%</td>
     </tr>
     <tr>
@@ -349,7 +361,6 @@ Ask me after for tips.
         <td>2</td>
         <td>9</td>
         <td>39</td>
-        <td>100</td>
         <td>50.0%</td>
     </tr>
     <tr>
@@ -357,7 +368,6 @@ Ask me after for tips.
         <td>2</td>
         <td>0</td>
         <td>29</td>
-        <td>100</td>
         <td>31.0%</td>
     </tr>
     <tr>
@@ -365,7 +375,6 @@ Ask me after for tips.
         <td>0</td>
         <td>0</td>
         <td>38</td>
-        <td>100</td>
         <td>38.0%</td>
     </tr>
 </table>
@@ -374,10 +383,8 @@ Ask me after for tips.
 
 ## So, what is the FCC gonna do?
 
-Probably nothing. |
+Probably nothing.
 
 Note:
 The FCC has said that they can't police these comments
 They also claimed that they werre DDOS'ed
-
----
