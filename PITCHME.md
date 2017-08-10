@@ -365,6 +365,6 @@ They also claimed that they werre DDOS'ed
 
 # Questions?
 
-chris@sinchok.com
-@chrissinchok
-github.com/csinchok
+chris@sinchok.com  
+@chrissinchok  
+github.com/csinchok  
